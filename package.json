@@ -1,0 +1,19 @@
+{
+  "name": "xp_hyve",
+  "version": "1.0.0",
+  "description": "experimental app on cheaply showing where the hyvelets are",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^4.2.0",
+    "pg-hstore": "^2.3.1",
+    "sequelize": "^2.0.1",
+    "routes":"*",
+    "geolib":"*",
+    "chance":"*"
+  }
+}
